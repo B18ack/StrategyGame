@@ -1,0 +1,72 @@
+# ===== Unity: папки, которые создаются автоматически =====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Восстановление сцен после сбоев (Assets/_Recovery)
+/[Aa]ssets/_Recovery/
+/[Aa]ssets/_Recovery.meta
+
+# Кэш пакетов и Asset Store
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# ===== Автогенерируемые проекты и решения IDE =====
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ===== Файлы сборки и отладки =====
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# ===== Отчёты Unity =====
+sysinfo.txt
+*.log
+
+# Профайлер и захваты
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ===== Unity VCS (Plastic SCM), если больше не нужен =====
+.plastic/
+plastic.workspace
+plastic.selector
+plastic.wktree
+
+# ===== Прочее =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*~
+
+# Учтите: папки Assets, Packages и ProjectSettings НУЖНО загружать,
+# а также все файлы .meta внутри них.
+*.slnx
