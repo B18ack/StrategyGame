@@ -76,3 +76,5 @@
 ## Автор
 
 [B18ack](https://github.com/B18ack)
+
+[⬇️ Скачать последнюю версию](https://github.com/B18ack/StrategyGame/releases/latest)
