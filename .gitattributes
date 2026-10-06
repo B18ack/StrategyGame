@@ -1,0 +1,20 @@
+# Автоопределение переносов строк
+* text=auto
+
+# Не считать сторонние ассеты и сгенерированные файлы кодом игры:
+# так в полосе языков на GitHub будет честно отображаться C#
+Assets/Added[[:space:]]perfabs/** linguist-vendored
+Assets/Standard[[:space:]]Assets/** linguist-vendored
+Assets/Settings/** linguist-vendored
+Assets/Tutorial*/** linguist-vendored
+*.shader linguist-language=HLSL
+*.cginc linguist-language=HLSL
+*.hlsl linguist-language=HLSL
+*.mat linguist-generated
+*.prefab linguist-generated
+*.unity linguist-generated
+*.asset linguist-generated
+*.meta linguist-generated
+*.nb linguist-detectable=false
+*.m linguist-detectable=false
+*.mx linguist-detectable=false
