@@ -76,3 +76,5 @@ The first launch may take a few minutes while Unity regenerates the `Library` fo
 ## Author
 
 [B18ack](https://github.com/B18ack)
+
+[⬇️ Download the latest version](https://github.com/B18ack/StrategyGame/releases/latest)
